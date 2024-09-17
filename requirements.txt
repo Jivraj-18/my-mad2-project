@@ -12,3 +12,4 @@ email-validator
 Pillow
 pdf2image
 PyPDF2
+gunicorn
