@@ -21,7 +21,8 @@ from io import BytesIO
 
 # Create Flask application
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://frontend-mad2-project.vercel.app/"}})
+CORS(app, resources={r"/api/*": {"origins": "https://frontend-mad2-project.vercel.app"}})
+
 
 
 # Load configurations from config.py
