@@ -11,3 +11,4 @@ jinja2
 email-validator
 Pillow
 pdf2image
+PyPDF2
