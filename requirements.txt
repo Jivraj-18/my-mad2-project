@@ -9,3 +9,4 @@ redis
 celery
 jinja2
 email-validator
+Pillow
